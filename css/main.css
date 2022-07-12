@@ -106,12 +106,28 @@ body {
   padding: 2em;
   font-size: 1.25em;
   height: 100%;
+  color: white;
 }
-
+header,
+footer, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    background: url('../img/bkgd.jpg') no-repeat;
+    background-size: cover;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   justify-content: space-between;
   
 
